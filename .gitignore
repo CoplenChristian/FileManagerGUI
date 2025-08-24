@@ -1,0 +1,56 @@
+# === Maven / Build ===
+target/
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# === Eclipse ===
+.project
+.classpath
+.settings/
+bin/
+
+# === VS Code ===
+.vscode/
+
+# === Mac / Windows / Linux OS files ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Trash-*
+
+# === Logs & temp ===
+*.log
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# === Config / user data ===
+settings.json   # exclude persisted user settings
+*.local
+*.env
+
+# === Test reports ===
+surefire-reports/
+failsafe-reports/
+
+# === Other ===
+*.orig
+/settings.json
